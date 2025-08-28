@@ -11,12 +11,10 @@ btEnviar.addEventListener("click", function(event){
     console.log(form.jogoPref.value);
 
     var informacoes = document.createElement('p');
-    informacoes.textContent = form.nome.value + ''+form.idade.value+' '+form.filmePref.value+' '+form.jogoPref.value;
+    informacoes.textContent = form.nome.value + ' '+form.idade.value+' '+form.filmePref.value+' '+form.jogoPref.value;
     
     var novoElemento = document.getElementById('novoElemento');
     novoElemento.appendChild(informacoes);
 
-    let texto = "Esta é a primeira linha.\nEsta é a segunda linha.";
-    console.log(texto);
    
 });
